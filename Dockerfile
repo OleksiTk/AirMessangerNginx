@@ -1,8 +1,7 @@
-# Dockerfile
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]git add Dockerfile
+CMD ["nginx", "-g", "daemon off;"]
